@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+
+# Archivos de construcción
+dist/
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios y archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de caché de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos de respaldo
+*.bak
+*.swp
+*~
+
+# Archivos de configuración personal
+.npmrc
+.yarnrc
+
+# Archivos de cobertura de pruebas
+coverage/
+
+# Archivos de compilación de Tailwind CSS
+dist/css/output.css
