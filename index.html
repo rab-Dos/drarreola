@@ -186,8 +186,36 @@
     <link href="/dist/css/output.css" rel="stylesheet">
 </head>
 <body>
-
-    <p class="flex text-red-600">Hola Mundo :D</p>
     
+    <!-- Manejo completo de la pantalla considerando las barras de herramientas de los navegadores móviles. -->
+     <div class="flex flex-col items-center h-screen-fallback bg-green-300">
+
+        <header class="py-3">
+            
+          <nav class="flex justify-between items-center py-1 pl-4 pr-6 space-x-10 rounded-full backdrop-blur-sm bg-white/80 shadow-lg">
+
+            <a href="https://ortopediadrarreola.com" title="Calidad y Precisión en cada Intervención">
+              <img src="src/images/logo_top.svg" class="h-12" alt="Logo Dr. Arreola">
+            </a>
+
+            <ul class="flex flex-row text-sm space-x-5 items-center text-gray-700">
+              <li>Inicio</li>
+              <li>Sobre mí</li>
+              <li>Reserve una visita</li>
+              <li>Planes y precios</li>
+              <li>Opiniones</li>
+              <li>Contacto</li>
+            </ul>
+
+
+          </nav>
+
+        </header>
+
+        <main></main>
+        
+        <footer></footer>
+
+      </div>
 </body>
 </html>

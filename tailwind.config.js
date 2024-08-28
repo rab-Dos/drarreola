@@ -6,8 +6,11 @@ module.exports = {
     "./src/**/*.js"
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      height: {
+        'screen-fallback': '100vh; height: 100dvh',
+      },
+    },
+    plugins: [],
+  }
 }
-
