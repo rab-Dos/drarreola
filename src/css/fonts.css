@@ -1,0 +1,105 @@
+/* Quicksand */
+@font-face {
+    font-display: swap;
+    font-family: 'Quicksand';
+    src: url('/public/fonts/quicksand-v31-latin-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Quicksand';
+    src: url('/public/fonts/quicksand-v31-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Quicksand';
+    src: url('/public/fonts/quicksand-v31-latin-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Quicksand';
+    src: url('/public/fonts/quicksand-v31-latin-600.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Quicksand';
+    src: url('/public/fonts/quicksand-v31-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* Raleway */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-100.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-200.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-600.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    src: url('/public/fonts/raleway-v34-latin-800.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+  }
