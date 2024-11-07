@@ -1,0 +1,13 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    
+    background: radial-gradient(at 78% 79%, #f4fcd9 0px, transparent 50%),
+    radial-gradient(at 12% 3%, #b3ffc1 0px, transparent 50%),
+    radial-gradient(at 71% 87%, #57cc99 0px, transparent 50%),
+    radial-gradient(at 88% 43%, #e9eec9 0px, transparent 50%),
+    radial-gradient(at 20% 7%, #f6fbf4 0px, transparent 50%), #f4fcd9;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}

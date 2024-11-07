@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         'quicksand': ['Quicksand', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
+        'workSans': ['Work Sans', 'sans-serif']
       },
       fontWeight: {
         'thin': 100,
@@ -23,6 +24,7 @@ module.exports = {
       },
       height: {
         'screen-fallback': '100vh; height: 100dvh',
+        'min-h-screen-fallback': 'min-height: 100vh; height: 100dvh',
       },
     },
     plugins: [],
