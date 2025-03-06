@@ -46,3 +46,6 @@ coverage/
 
 # Archivos de compilación de Tailwind CSS
 dist/css/output.css
+
+# Archivos específicos
+back_ok.html

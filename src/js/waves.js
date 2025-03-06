@@ -1,14 +1,3 @@
-const dialog = document.querySelector('#d1');
-const show = document.querySelector('#show1');
-const cancel = document.querySelector('#cancel1');
-
-show.addEventListener('click', () => {
-    dialog.showModal();
-});
-cancel.addEventListener('click', () => {
-    dialog.close();
-});
-
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
@@ -25,13 +14,13 @@ function drawFluid() {
 
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;
-    const maxRadius = Math.sqrt(centerX * centerX + centerY * centerY);
 
+    const maxRadius = Math.sqrt(centerX * centerX + centerY * centerY);
     const colors = [
         [0xf3, 0x92, 0x00, 0xff],  // f39200ff
         [0xe0, 0xd5, 0x43, 0xe6],  // e0d543e6
         [0x46, 0xb1, 0xe1, 0xff],  // 46b1e1ff
-        [0x1f, 0x4d, 0x6b, 0xff]   // 1f4d6bff
+        [0xff, 0xff, 0xff, 0xff]   // 1f4d6bff
     ];
 
     for (let i = 0; i < 4; i++) {
@@ -73,3 +62,14 @@ window.addEventListener('resize', () => {
 });
 
 startAnimation();
+
+const dialog = document.querySelector('#d1');
+const show = document.querySelector('#show1');
+const cancel = document.querySelector('#cancel1');
+
+show.addEventListener('click', () => {
+    dialog.showModal();
+});
+cancel.addEventListener('click', () => {
+    dialog.close();
+});
