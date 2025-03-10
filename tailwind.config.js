@@ -27,6 +27,7 @@ module.exports = {
         'min-h-screen-fallback': 'min-height: 100vh; height: 100dvh',
       },
       fontSize: {
+        'clamp-navbar': 'clamp(0.375rem, 1.5vw, .99rem)', // Entre 6px y 12px (Mobile)
         'clamp-xs': 'clamp(0.375rem, 1.5vw, 0.875rem)', // Entre 6px y 12px
         'clamp-sm': 'clamp(0.5rem, 2vw, 1rem)',        // Entre 8px y 16px
         'clamp-md': 'clamp(1rem, 3vw, 1.25rem)',       // Entre 16px y 20px

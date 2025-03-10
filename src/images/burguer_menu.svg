@@ -1,1 +1,80 @@
-<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-3"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 6h10" /><path d="M4 12h16" /><path d="M7 12h13" /><path d="M4 18h10" /></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   class="icon icon-tabler icons-tabler-outline icon-tabler-menu-3"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="burguer_menu.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="16.47743"
+     inkscape:cx="9.6192188"
+     inkscape:cy="10.256454"
+     inkscape:window-width="1440"
+     inkscape:window-height="819"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <g
+     id="g11"
+     transform="matrix(1.2774358,0,0,1.2774358,-3.3292294,-3.3292294)">
+    <g
+       id="path2"
+       style="fill:#363636;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <path
+         style="fill:#363636;fill-opacity:1;stroke:none;stroke-opacity:1"
+         d="M 10,6 H 20"
+         id="path6" />
+      <path
+         style="fill:#363636;fill-opacity:1;stroke:none;stroke-opacity:1"
+         d="M 10,5 A 1,1 0 0 0 9,6 1,1 0 0 0 10,7 H 20 A 1,1 0 0 0 21,6 1,1 0 0 0 20,5 Z"
+         id="path7" />
+    </g>
+    <g
+       id="path3"
+       style="fill:#363636;fill-opacity:1;stroke:none">
+      <path
+         style="fill:#363636;fill-opacity:1;stroke:none"
+         d="M 4,12 H 20"
+         id="path8" />
+      <path
+         style="fill:#363636;fill-opacity:1;stroke:none"
+         d="m 4,11 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 16 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path9" />
+    </g>
+    <g
+       id="path5"
+       style="fill:#363636;fill-opacity:1;stroke:none">
+      <path
+         style="fill:#363636;fill-opacity:1;stroke:none"
+         d="M 4,18 H 14"
+         id="path10" />
+      <path
+         style="fill:#363636;fill-opacity:1;stroke:none"
+         d="m 4,17 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 10 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path11" />
+    </g>
+  </g>
+</svg>
