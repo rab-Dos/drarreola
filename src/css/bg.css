@@ -1,3 +1,10 @@
+.mask_img {
+  mask-image: linear-gradient(
+    black 80%,
+    transparent 98%
+    )
+}
+
 .bg_rodilla {
   position: absolute;
   inset: 0;
@@ -29,7 +36,6 @@
 
 @media screen and (min-width: 1280px) {
   .bg_rodilla {
-    opacity: 0.6;
-    background-size: 70%;
+    background-size: 80%;
   }
 }
