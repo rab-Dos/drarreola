@@ -39,3 +39,53 @@
     background-size: 80%;
   }
 }
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-gradient-animated-hs {
+  background: linear-gradient(270deg, #ffe645, #deaa52, #ffe645, #deaa52);
+  background-size: 600% 600%;
+  animation: gradient-move 10s ease infinite;
+}
+
+.bg-gradient-animated-nb {
+  background-color: rgb(84, 236, 213);
+  background-size: 400% 400%;
+}
+
+.bg-gradient-animated-nb:hover {
+  background: linear-gradient(270deg, #ffe645, #deaa52, #ffe645, #deaa52);
+  background-size: 400% 400%;
+  animation: gradient-move 8s ease infinite;
+}
+
+.bg-gradient-animated-bbp {
+  background-color: white;
+  background-size: 400% 400%;
+}
+
+.bg-gradient-animated-bbp:hover {
+  background: linear-gradient(270deg, #ffffff, #c0c0c0, #ffffff, #c0c0c0);
+
+  background-size: 400% 400%;
+  animation: gradient-move 8s ease infinite;
+}
+
+.bg-gradient-animated-bento {
+  position: relative;
+  background-color: #e07700;
+  background-size: 400% 400%;
+  transition: background 1s ease;
+  overflow: hidden;
+}
+
+.bg-gradient-animated-bento:hover {
+  color: #363636;
+  background: linear-gradient(135deg, #ffe645, #deaa52, #ffe645, #deaa52);
+  background-size: 400% 400%;
+  animation: gradient-move 8s ease infinite;
+}
